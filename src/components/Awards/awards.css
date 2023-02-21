@@ -1,0 +1,138 @@
+.awards-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+
+
+.awards-heading {
+    font-size: 16px;
+    font-weight: 700;
+    position: absolute;
+    margin: 0;
+    transform: translate(1px, -40px);
+    display: INLINE;
+    top: 0;
+    left: 0;
+    border-bottom: 2px solid transparent;
+    border-image: linear-gradient(269.84deg, #756429 18.35%, #E8C41E 37.52%, #FED700 49.64%, #A28B31 72.47%);
+    border-image-slice: 1;
+    width: fit-content;
+}
+
+
+.award {
+    position: relative;
+    width: 48%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 420px;
+}
+
+.img-border {
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    width: 300px;
+    height: 300px;
+}
+
+.award>p:nth-child(3) {
+    margin-top: 15px;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.award-bottom-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 10px;
+    margin-top: 25px;
+}
+
+.award-bottom-nav>div:nth-child(1) {
+    display: flex;
+}
+
+.award-bottom-nav>div:nth-child(1) img {
+    width: 13px;
+}
+
+.award-bottom-nav>div:nth-child(1) p {
+    font-weight: 700;
+    font-size: 12px;
+}
+
+
+.award-bottom-nav>div:nth-child(2) img {
+    padding-left: 10px;
+}
+
+
+.award-bottom-nav>div:nth-child(3) {
+    display: flex;
+}
+
+.award-bottom-nav>div:nth-child(3) p {
+    font-weight: 700;
+    font-size: 12px;
+}
+
+
+
+
+
+.certificates {
+    position: relative;
+    width: 48%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 400px;
+}
+
+.certificates>p:nth-child(3) {
+    margin-top: 15px;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.img-border-2 {
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    width: 300px;
+    height: 300px;
+}
+
+
+@media screen and (max-width:600px) {
+
+    .awards-container {
+        flex-direction: column;
+    }
+
+    .award {
+        width: 100%;
+    }
+
+    .certificates {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .awards-heading {
+        margin-top: 10px;
+    }
+}

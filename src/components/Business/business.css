@@ -1,0 +1,92 @@
+.heading {
+    margin-top: 40px;
+
+
+}
+
+.business-container {
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.businesses {
+    min-height: 400px;
+    width: 48%;
+    min-width: 350px;
+    font-size: 12px;
+    line-height: 15px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 15px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.business-heading {
+    width: calc(100% + 30px);
+    transform: translateX(-15px);
+    padding: 0 15px;
+    border-bottom: 2px solid transparent;
+    border-image: linear-gradient(269.84deg, #756429 18.35%, #E8C41E 37.52%, #FED700 49.64%, #A28B31 72.47%);
+    border-image-slice: 1;
+    display: flex;
+    padding-bottom: 15px;
+}
+
+.business-heading img {
+    top: 0;
+}
+
+.business-heading h3 {
+    margin-left: 10px;
+    margin-top: 12px;
+}
+
+.business-points {
+    min-height: 200px;
+    display: flex;
+    align-items: flex-start;
+    margin-top: 15px;
+}
+
+
+.business-points> :nth-child(1) {
+    width: 40%;
+}
+
+.business-points> :nth-child(2) {
+    width: 60%;
+
+}
+
+.business-point {
+    display: flex;
+    align-items: flex-start;
+    padding: 0 0 20px 15px;
+
+}
+
+.business-point p {
+    margin-left: 6px;
+    font-weight: 500;
+}
+
+.business-point img {
+    margin-top: 1px;
+}
+
+
+@media screen and (max-width: 600px) {
+    .businesses {
+        margin-top: 20px;
+        min-height: 350px;
+        width: 100%;
+        min-width: 0;
+    }
+
+    .business-points {
+        min-height: 160px;
+        width: 100%;
+    }
+}
